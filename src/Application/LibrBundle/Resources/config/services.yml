@@ -1,0 +1,5 @@
+services:
+  libr.twig.extension.foo:
+    class:  Application\LibrBundle\Twig\FooFilter
+    tags:   
+      - { name: twig.extension }

@@ -1,0 +1,11 @@
+{% extends "LibrBundle::layout.twig.html" %}
+
+{% block page_title "<h2>Create book </h2>" %}
+
+{% block content %}
+  <form action="" method="post" {{ form_enctype(form) }}>
+    {{ form_field(form) }}
+    {{ form_hidden(form) }}
+    <input type="submit" value="Add Book" />
+  </form>
+{% endblock %}

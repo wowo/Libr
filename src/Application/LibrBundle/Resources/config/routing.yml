@@ -1,0 +1,7 @@
+index:
+    pattern:  /
+    defaults: { _controller: LibrBundle:Main:index}
+
+create:
+    pattern:  /create
+    defaults: { _controller: LibrBundle:Main:create }

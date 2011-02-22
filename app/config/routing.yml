@@ -1,0 +1,3 @@
+
+Libr:
+    resource: "@LibrBundle/Resources/config/routing.yml"

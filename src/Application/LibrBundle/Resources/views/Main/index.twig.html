@@ -1,0 +1,28 @@
+{% extends "LibrBundle::layout.twig.html" %}
+
+{% block page_title "<h2>Books shelf</h2>" %}
+
+{% block content %}
+{{ "srututut"|foo }}
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th colspan="2">Books count: {{ books|length }}</th>
+      </tr>
+    </tfoot>
+    <tbody>
+      {% for book in books %}
+        <tr>
+          <td>{{ book.title }}</td>
+          <td>{{ book.author }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
