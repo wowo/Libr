@@ -20,7 +20,8 @@ class MainController extends Controller
   public function indexAction()
   {
     $em = $this->get("doctrine.orm.entity_manager");
-    $books = $em->getRepository('Application\LibrBundle\Entity\Book')->getBooks("shelf");
+    //$books = $em->getRepository('Application\LibrBundle\Entity\Book')->getBooks("shelf");
+    $books = $this->get("libr.repositories.books")->getBooks("shelf"); 
 
     return $this->render(
         "LibrBundle:Main:index.twig.html",

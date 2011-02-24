@@ -1,5 +1,12 @@
 services:
   libr.twig.extension.foo:
-    class:  Application\LibrBundle\Twig\FooFilter
+    class: Application\LibrBundle\Twig\FooFilter
     tags:   
       - { name: twig.extension }
+  
+  libr.repositories.books:
+    class: Application\LibrBundle\Repository\BookRepository
+    factory_service: doctrine.orm.entity_manager
+    factory_method: getRepository
+    arguments:
+        - LibrBundle:Book

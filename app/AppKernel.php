@@ -11,9 +11,11 @@ class AppKernel extends Kernel
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Symfony\Bundle\ZendBundle\ZendBundle(),
             new Symfony\Bundle\TwigBundle\TwigBundle(),
-            new Symfony\Bundle\AsseticBundle\AsseticBundle(),
+            //new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Symfony\Bundle\DoctrineBundle\DoctrineBundle(),
             new Application\LibrBundle\LibrBundle(),
+            new Sonata\BaseApplicationBundle\SonataBaseApplicationBundle(),
+            new Knplabs\MenuBundle\KnplabsMenuBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

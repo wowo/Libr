@@ -11,6 +11,8 @@ $loader->registerNamespaces(array(
     'Doctrine'           => __DIR__.'/../vendor/doctrine/lib',
     'Assetic'            => __DIR__.'/../vendor/assetic/src',
     'Zend\\Log'          => __DIR__.'/../vendor/zend-log',
+    'Sonata'             => __DIR__.'/../vendor',
+    'Knplabs'            => __DIR__.'/../vendor',
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_'   => __DIR__.'/../vendor/twig-extensions/lib',

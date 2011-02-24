@@ -38,5 +38,15 @@ class Book
   {
     return $this->author == "Pajp";
   }
+
+  public function getTitle()
+  {
+    return $this->title;
+  }
+
+  public function getAuthor()
+  {
+    return $this->author;
+  }
 }
 
