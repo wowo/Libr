@@ -15,6 +15,8 @@ class AppKernel extends Kernel
             new Symfony\Bundle\DoctrineBundle\DoctrineBundle(),
             new Application\LibrBundle\LibrBundle(),
             new Sonata\BaseApplicationBundle\SonataBaseApplicationBundle(),
+            new Sonata\BluePrintBundle\SonataBluePrintBundle(),
+            new Sonata\jQueryBundle\SonatajQueryBundle(),
             new Knplabs\MenuBundle\KnplabsMenuBundle(),
         );
 
