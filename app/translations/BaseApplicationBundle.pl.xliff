@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="BaseApplicationBundle.en.xliff" >
+        <body>
+            <trans-unit id="app_1">
+                <source>link_book_list</source>
+                <target>Lista książek</target>
+            </trans-unit>
+            <trans-unit id="app_2">
+                <source>link_book_edit</source>
+                <target>Edytuj książkę</target>
+            </trans-unit>
+            <trans-unit id="app_3">
+                <source>link_book_create</source>
+                <target>Dodaj książkę</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

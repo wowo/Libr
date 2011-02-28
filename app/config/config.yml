@@ -38,3 +38,5 @@ sonata_base_application:
       class: Application\LibrBundle\Admin\BookAdmin
       entity: Application\LibrBundle\Entity\Book
       controller: LibrBundle:Admin
+      label: Książki
+      group:  Encje
