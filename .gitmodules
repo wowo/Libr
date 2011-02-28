@@ -1,0 +1,36 @@
+[submodule "vendor/symfony"]
+	path = vendor/symfony
+	url = git://github.com/symfony/symfony.git
+[submodule "vendor/assetic"]
+	path = vendor/assetic
+	url = git://github.com/kriswallsmith/assetic.git
+[submodule "vendor/twig"]
+	path = vendor/twig
+	url = git://github.com/fabpot/Twig.git
+[submodule "twig-extensions"]
+	path = twig-extensions
+	url = https://github.com/fabpot/Twig-extensions.git
+[submodule "vendor/doctrine"]
+	path = vendor/doctrine
+	url = git://github.com/doctrine/doctrine2.git
+[submodule "vendor/doctrine-dbal"]
+	path = vendor/doctrine-dbal
+	url = git://github.com/doctrine/dbal.git
+[submodule "vendor/doctrine-common"]
+	path = vendor/doctrine-common
+	url = git://github.com/doctrine/common.git
+[submodule "vendor/zend-log/Zend/Log"]
+	path = vendor/zend-log/Zend/Log
+	url = https://github.com/symfony/zend-log.git
+[submodule "vendor/Sonata/jQueryBundle"]
+	path = vendor/Sonata/jQueryBundle
+	url = https://github.com/sonata-project/jQueryBundle.git
+[submodule "vendor/Sonata/BluePrintBundle"]
+	path = vendor/Sonata/BluePrintBundle
+	url = https://github.com/sonata-project/BluePrintBundle.git
+[submodule "vendor/Knplabs/MenuBundle"]
+	path = vendor/Knplabs/MenuBundle
+	url = https://github.com/knplabs/MenuBundle.git
+[submodule "vendor/Sonata/BaseApplicationBundle"]
+	path = vendor/Sonata/BaseApplicationBundle
+	url = git@github.com:wowo/BaseApplicationBundle.git
