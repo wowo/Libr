@@ -31,6 +31,12 @@ class Book
    */
   public $createdAt;
 
+  public function __construct()
+  {
+    $this->createdAt = new \DateTime("now");
+    $this->destination = "shelf";
+  }
+
   /**
    * @validation:AssertFalse(message = "Pajp nie może być autorem!")
    */
@@ -47,6 +53,11 @@ class Book
   public function getAuthor()
   {
     return $this->author;
+  }
+
+  public function getId()
+  {
+    return $this->id;
   }
 }
 
