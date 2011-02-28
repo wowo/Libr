@@ -37,6 +37,10 @@ sonata_base_application:
     book:
       class: Application\LibrBundle\Admin\BookAdmin
       entity: Application\LibrBundle\Entity\Book
-      controller: LibrBundle:Admin
+      controller: "LibrBundle:Admin"
       label: Książki
       group:  Encje
+      list: 
+        title: 
+          identifier: true
+        author:
