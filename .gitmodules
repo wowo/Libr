@@ -7,8 +7,8 @@
 [submodule "vendor/twig"]
 	path = vendor/twig
 	url = git://github.com/fabpot/Twig.git
-[submodule "twig-extensions"]
-	path = twig-extensions
+[submodule "vendor/twig-extensions"]
+	path = vendor/twig-extensions
 	url = https://github.com/fabpot/Twig-extensions.git
 [submodule "vendor/doctrine"]
 	path = vendor/doctrine
