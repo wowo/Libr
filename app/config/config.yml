@@ -40,7 +40,7 @@ sonata_base_application:
       controller: "LibrBundle:Admin"
       label: Książki
       group:  Encje
-      max_per_page: 5
+      #max_per_page: 5
       list: 
         title: 
           identifier: true
