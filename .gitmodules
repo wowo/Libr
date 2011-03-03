@@ -28,9 +28,6 @@
 [submodule "vendor/Knplabs/MenuBundle"]
 	path = vendor/Knplabs/MenuBundle
 	url = https://github.com/knplabs/MenuBundle.git
-[submodule "vendor/Sonata/BaseApplicationBundle"]
-	path = vendor/Sonata/BaseApplicationBundle
-	url = git@github.com:wowo/BaseApplicationBundle.git
 [submodule "vendor/twig-extensions"]
 	path = vendor/twig-extensions
 	url = https://github.com/fabpot/Twig-extensions.git
