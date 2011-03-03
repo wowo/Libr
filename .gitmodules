@@ -31,3 +31,6 @@
 [submodule "vendor/twig-extensions"]
 	path = vendor/twig-extensions
 	url = https://github.com/fabpot/Twig-extensions.git
+[submodule "vendor/Sonata/AdminBundle"]
+	path = vendor/Sonata/AdminBundle
+	url = git://github.com/wowo/AdminBundle.git
