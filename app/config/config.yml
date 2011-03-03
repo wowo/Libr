@@ -40,7 +40,8 @@ sonata_admin:
       controller: "LibrBundle:Admin"
       label: Książki
       group:  Encje
-      #max_per_page: 5
+      max_per_page: 5
+      base_route_pattern: book
       list: 
         title: 
           identifier: true
@@ -61,8 +62,9 @@ sonata_admin:
           form_field_widget: Symfony\Component\Form\ChoiceField
           form_field_options: 
             choices: {shelf: shelf, wishlist: wishlist}
-      formGroups:
+      form_groups:
         "Important fields group":
           fields: [title]
         "Other less important fields":
           fields: [author, destination]
+      form_options: {validation_groups: Default}
