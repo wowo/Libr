@@ -1,7 +1,7 @@
 Sonata:
-    resource: "@SonataBaseApplicationBundle/Resources/config/routing/sonata_base_application.xml"
+    resource: "@SonataAdminBundle/Resources/config/routing/sonata_admin.xml"
 SonataPool:
-    resource: "@SonataBaseApplicationBundle/Resources/config/routing/sonata_base_application.xml"
-    type: sonata_base_application
+    resource: "@SonataAdminBundle/Resources/config/routing/sonata_admin.xml"
+    type: sonata_admin
 Libr:
     resource: "@LibrBundle/Resources/config/routing.yml"

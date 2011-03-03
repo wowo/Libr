@@ -1,6 +1,6 @@
 <?php
 namespace Application\LibrBundle\Admin;
-use Sonata\BaseApplicationBundle\Admin\EntityAdmin;
+use Sonata\AdminBundle\Admin\EntityAdmin;
 
 class BookAdmin extends EntityAdmin
 {

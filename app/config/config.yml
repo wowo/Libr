@@ -31,8 +31,8 @@ doctrine:
    mappings:
      LibrBundle: ~
 
-# Base Application Configuration
-sonata_base_application:
+# Admin Configuration
+sonata_admin:
   entities:
     book:
       class: Application\LibrBundle\Admin\BookAdmin
@@ -51,7 +51,7 @@ sonata_base_application:
         title:
         author:
         destination:
-          filter_field_widget: Sonata\BaseApplicationBundle\Filter\ChoiceFilter
+          filter_field_widget: Sonata\AdminBundle\Filter\ChoiceFilter
           filter_field_options: 
             choices: {all: all, shelf: shelf, wishlist: wishlist}
       form:
