@@ -31,6 +31,23 @@ doctrine:
    mappings:
      LibrBundle: ~
 
+# Services
+parameters:
+  libr.admin.book.class: Application\LibrBundle\Entity\Book
+
+services:
+  libr.admin.book:
+    class: Application\LibrBundle\Admin\BookAdmin
+    arguments:
+      - %libr.admin.book.class%
+      - LibrBundle:Admin
+    tags:
+      sonata.admin:
+        name: sonata.admin
+        manager_type: orm
+        group: Encje
+        label: Książki
+
 # Admin Configuration
 sonata_admin:
   entities:
