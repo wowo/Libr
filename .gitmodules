@@ -31,3 +31,6 @@
 [submodule "vendor/Sonata/AdminBundle"]
 	path = vendor/Sonata/AdminBundle
 	url = git://github.com/wowo/AdminBundle.git
+[submodule "vendor/Knplabs/MenuBundle"]
+	path = vendor/Knplabs/MenuBundle
+	url = git@github.com:wowo/MenuBundle.git
